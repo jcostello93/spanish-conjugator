@@ -22,7 +22,6 @@ def get_conjugations(data):
                         'conjugated_form': word,
                         'subject': e.get('performer'),
                         'mood': e.get('mood'),
-                        'translation': e.get('translation'),
                         'tense': e.get('tense'),
                     })
     return result
